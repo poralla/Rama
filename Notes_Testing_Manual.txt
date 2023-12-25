@@ -1,0 +1,464 @@
+Medical store- software application
+Requirements -
+====
+ 1.One software application(web app/mobile app)
+ 2. User can look for the medicine they want
+3.They can put into the cart
+4. They can pay for it(online payment/COD)
+5. They have to select tehir address
+6. Buy it.
+
+Company A---> Hema medical services
+
+Developer- c/c#, ruby/python
+Tester -
+Operations team
+
+
+Software- Set of progarms to perform a task
+
+3 main types:
+
+System software - software which is used to run a system(O.S -windows, linux mac etc..), Device drivers
+Programming software- c/c++- interpreters,compilers- machine understands
+
+Application software- insta/flipkart,amazon etc...
+
+
+SOFTWARE TESTING-
+===============
+Verifying the software application against the user requirements in order to achieve the quality product.
+
+Why software testing is required?
+=============================
+1.Developer error
+2.Failures-loss of customer
+3.In order to release QP
+4.Improve performance
+5. S/w is adaptable or not.
+6. As per the req's
+7. To find defects
+8. whether its secured or not
+
+ 1. Headache- 5
+2. Fever - 5
+3. Cold- 5
+
+Total=15
+
+Headache+Fever+cold, 5=5
+
+1.There is loss of money.
+2. There is a loss of trust.
+
+Bloodpressure- 120/80
+   50/40-
+
+3. Loss of human lives.
+======
+It's all about thinking
+
+
+Task - Identify the Scenarios and results when we dont test the application
+
+========
+Terminologies- Errors, Defects, Bugs, Failure
+
+Error- Human mistake/syntactical errors
+Defects-Deviation from the expected behaviour/ unexpected behaviour of teh app
+Bug -Informal name of the defect
+Failure-Issues identified in the production.
+======
+
+14-11-2022
+
+Login functionality
+
+Step 1- Enter the email id/phone num
+Step 2 - Enter the password
+Step 3- Click on "login" button
+Step 4- Verify the login is successful and user is navigated to home page
+
+Expected- Login should be successful
+AcTual -Login failed
+
+Why software has bugs
+=============================
+
+1. Programming/coding errors - Due to developer's mistake, syntactical
+2. Changing requirements- 
+   Initial req- Users can be either login with email or phone num
+   Changed req(CR)- allow users to lohin with only email id
+
+3. Miscommunication-
+   4 req's=>3 req's
+4. Software complexity
+5. Lack of Developing and testing skills
+6. Follow some process/approcaches
+7. Less time
+==================================
+ 
+Facebook-
+
+Requirements:
+1.Facebook app- Login functionality.(Un(mail id/phone num),Pwd, Login btn, login successful)
+
+Team 1:
+=====
+Manager/Product owners
+Senior architects
+BA
+Developer
+Tester
+
+SDLC- Software development life cyecle-It is a process to design/develop/test and delivery a quality product.
+
+
+1. Gathering req's/Analyze req's
+BRS-Business requirement specification
+
+SRS- Software req specification
+
+
+2. Design
+5 modules- High level design
+submodules- Low level design
+
+3.Development/coding/Implementation
+Start developing the app
+
+  5 deveopers
+
+
+4.Testing(scenario/test cases)
+  Manual/Automation
+  Functioanl/Non functioanl testing
+
+100 tc's-executed(20 are failed-bcs of defects)-4 tc's
+
+
+5. Deployment
+
+6. Maintenance
+CR- Change Requirement
+
+=========
+SDLC models-
+1. Waterfall model
+2. Spiral model
+3. V & V model
+4. Agile model
+5. Prototype mdoel
+6. Customized model
+7. Fish model
+8. Hybrid model
+9. Incremental model
+10. rad model
+=======
+1. Waterfall model
+
+- Step by step procedure 
+- Every phase depends on the previous phase
+- Traditional model/basic model/Linial sequential model
+- Testing can be done only after the development
+- Req changes are not allowed
+-Backtracking is not possible
+- Easy to understand and use
+- we cannot expect a stable app until all the phases are completed.
+
+
+BRS _ Business requirement specifictaion doc
+SRS-Software requiremnet specification doc
+
+
+Advantages of waterfall model:
+----------------------------
+1. Very easy/simple to understand and adapt
+2. Quality product as there is no changing req's
+3. Initial investment is less
+4. Its suitable for simple projects
+5. Less defects
+
+Dis advantages:
+-----------------------
+
+1. There is a chance of missing the defects during the initial stage
+2. It is not suitable for complex projects
+3. Application to the market is late
+
+======
+Agile Model
+-----------
+
+- Iterative and Incremental model
+
+Adv:
+1. Software delivery is faster here
+2. Accomodate the changing req's
+3. Suitable for complex projects
+4. Number of defects can be less
+5.Risk is less
+
+--- Get a quality product
+
+Disadv:
+Less documentation
+
+Frameworks- Scrum, Xp, KANBAN
+
+SCRUM- It is a frameowrk used to follow the agile principles to design,develop, test and deliver the software
+
+
+Scrum team:
+========
+Project manager/Product owner- 
+Architect
+Scrum master
+BA's
+TEam leads(Dev & test)
+Developers
+Testers
+
+Scrum terminologies:
+=====================
+Product backlog- 
+Sprint(Iteration) - Time span required to design/develop/test and deliver the software(2-4 weeks)
+Sprint backlog-
+
+epic- Large req which can be breaken down into several user stories
+-- Flipkart login page(valiadte logo, validate login functionality, validate register)
+
+user story- Requirement for any specific functionality
+ex - login fucntionality
+- registartion
+validate logo
+
+scrum board-
+To do, in progress, completed
+5      3             2
+20     10            20
+
+
+Daily standups/Scrum meetings
+=================
+what we have done yesterday
+what we are going to do today
+roadblocks
+
+Sprint planning
+=============
+
+Sprint review
+======
+
+Retrospective meetings
+===
+what went wrong in the previous sprint
+what went right
+what can be improved for teh next sprints
+
+
+
+CR - Change request
+
+=============================
+Levels of testing:
+
+1.Unit Testing 
+  Testing the individual components.(JUnit/NUNIt)
+Whitebox testing
+Developers
+
+2.Integration
+unit1+unit2+unit3+unit4
+To test the data flow between the units
+Whitebox testing
+
+Incremental integration testing- unit1+unit2- Test, unit1+unit2+unit3-Test, unit1+unit2+unit3+unit4-test
+Non Incremental integration testing- unit1+unit2+unit3+unit4- test
+
+
+3. System Testing
+
+UI Testing
+Functional testing
+Non functioanl testing(load testing,performance, security  of teh app, compatibility)
+Usability testing
+
+4. UAT- USer acceptance testing
+
+Alpha
+Beta
+
+Unit Testing:
+---------
+
+Static Testing - Testing happens on the document level(SRS,BRS, Design docs-LLD and HLD)
+Dynamic Testing- Testing teh actual application(unit,Integration, System, and UAT)
+
+
+===============================
+
+Static Testing techniques-
+Review- BRS->SRS
+Walkthroughs- Informal review 
+Inspections- Formal review type
+
+=======
+
+Whitebox testing techniques:
+======
+Decision coverage
+Branch coverage
+Statement coverage
+condition coverage
+Path coverage
+.......
+
+Blackbox testing types:
+====
+Functional testing
+Non functional testing
+UI testing
+Usability testing
+
+Blackbox testing techniques:
+=======
+ECP
+BVA
+State transition
+Decision table
+Error guessing
+
+==============================
+whitebox testing
+Blackbox testing
+alpha testing
+beta testing
+functional & non functional
+Integration tetsing
+ststem testing
+Usability
+UI
+Static and Dynamic testing
+
+
+Other testing types:
+=====
+Smoke testing
+Retesting
+Regression testing
+Sanity testing
+Adhoc testing
+Monkey testing
+Exploratoery testing
+End to end testing
+Compatibility testing
+postive and negative testing
+Localization testing
+Globalization testing
+Internationalization tetsing
+Recovery testing
+Performance testing-Load/Stress testing
+API testing
+
+==============
+
+
+STLC- Software testing life cycle
+
+
+!. Requiremnet Analysis:
+------------------------------
+
+SRS
+Test Planning- Test tool selection,resorces required, time required, roles nad responsibilities,
+               Test scheduled, testing types
+Test leads- 
+
+Test case design -TCD
+
+
+
+Seveority- Blocker/Critical,major,high,low(minor)
+Priority- High,medium,low
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
